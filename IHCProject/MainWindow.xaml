@@ -1,0 +1,26 @@
+﻿<Window x:Class="IHCProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IHCProject"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:sys1="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="667" Width="375" ResizeMode="NoResize" Background="#FFF1F1F1">
+
+
+    <Grid>
+        <Label x:Name="Title" Content="Statistics" HorizontalAlignment="Left" Height="43" Margin="46,62,0,0" VerticalAlignment="Top" Width="127" FontFamily="Trebuchet MS" FontSize="28" Foreground="{StaticResource titleColor}">
+            <Label.Effect>
+                <DropShadowEffect BlurRadius="2" Opacity="0.05" ShadowDepth="4"/>
+            </Label.Effect>
+        </Label>
+        <Rectangle Fill="{StaticResource titleColor}" HorizontalAlignment="Left" Height="2" Margin="42,122,0,0" Stroke="{StaticResource titleColor}" VerticalAlignment="Top" Width="291"/>
+        <Label HorizontalAlignment="Left" Height="28" Margin="95,203,0,0" VerticalAlignment="Top" Width="125" FontFamily="Trebuchet MS" FontSize="20" Content="Temperature"/>
+        <Label HorizontalAlignment="Left" Height="28" Margin="95,320,0,0" VerticalAlignment="Top" Width="125" FontFamily="Trebuchet MS" FontSize="20" Content="Humidity"/>
+        <Label HorizontalAlignment="Left" Height="26" Margin="95,436,0,0" VerticalAlignment="Top" Width="116" FontFamily="Trebuchet MS" FontSize="20" Content="C02 Levels"/>
+        <Label HorizontalAlignment="Left" Height="29" Margin="95,542,0,0" VerticalAlignment="Top" Width="101" FontFamily="Trebuchet MS" FontSize="20" Content="Eletric Energy"/>
+
+    </Grid>
+</Window>

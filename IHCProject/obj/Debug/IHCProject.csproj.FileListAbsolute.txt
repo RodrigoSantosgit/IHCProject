@@ -1,0 +1,14 @@
+D:\IHCProject\IHCProject\bin\Debug\IHCProject.exe.config
+D:\IHCProject\IHCProject\bin\Debug\IHCProject.exe
+D:\IHCProject\IHCProject\bin\Debug\IHCProject.pdb
+D:\IHCProject\IHCProject\obj\Debug\IHCProject.csprojAssemblyReference.cache
+D:\IHCProject\IHCProject\obj\Debug\MainWindow.g.cs
+D:\IHCProject\IHCProject\obj\Debug\App.g.cs
+D:\IHCProject\IHCProject\obj\Debug\IHCProject_MarkupCompile.cache
+D:\IHCProject\IHCProject\obj\Debug\IHCProject_MarkupCompile.lref
+D:\IHCProject\IHCProject\obj\Debug\MainWindow.baml
+D:\IHCProject\IHCProject\obj\Debug\IHCProject.g.resources
+D:\IHCProject\IHCProject\obj\Debug\IHCProject.Properties.Resources.resources
+D:\IHCProject\IHCProject\obj\Debug\IHCProject.csproj.GenerateResource.cache
+D:\IHCProject\IHCProject\obj\Debug\IHCProject.exe
+D:\IHCProject\IHCProject\obj\Debug\IHCProject.pdb

@@ -17,10 +17,10 @@
             </Label.Effect>
         </Label>
         <Rectangle Fill="{StaticResource titleColor}" HorizontalAlignment="Left" Height="2" Margin="42,122,0,0" Stroke="{StaticResource titleColor}" VerticalAlignment="Top" Width="291"/>
-        <Label HorizontalAlignment="Left" Height="28" Margin="95,203,0,0" VerticalAlignment="Top" Width="125" FontFamily="Trebuchet MS" FontSize="20" Content="Temperature"/>
-        <Label HorizontalAlignment="Left" Height="28" Margin="95,320,0,0" VerticalAlignment="Top" Width="125" FontFamily="Trebuchet MS" FontSize="20" Content="Humidity"/>
-        <Label HorizontalAlignment="Left" Height="26" Margin="95,436,0,0" VerticalAlignment="Top" Width="116" FontFamily="Trebuchet MS" FontSize="20" Content="C02 Levels"/>
-        <Label HorizontalAlignment="Left" Height="29" Margin="95,542,0,0" VerticalAlignment="Top" Width="101" FontFamily="Trebuchet MS" FontSize="20" Content="Eletric Energy"/>
+        <Label HorizontalAlignment="Left" Height="33" Margin="95,203,0,0" VerticalAlignment="Top" Width="125" FontFamily="Trebuchet MS" FontSize="20" Content="Temperature"/>
+        <Label HorizontalAlignment="Left" Height="37" Margin="95,320,0,0" VerticalAlignment="Top" Width="125" FontFamily="Trebuchet MS" FontSize="20" Content="Humidity"/>
+        <Label HorizontalAlignment="Left" Height="35" Margin="95,436,0,0" VerticalAlignment="Top" Width="116" FontFamily="Trebuchet MS" FontSize="20" Content="C02 Levels"/>
+        <Label HorizontalAlignment="Left" Height="35" Margin="95,542,0,0" VerticalAlignment="Top" Width="143" FontFamily="Trebuchet MS" FontSize="20" Content="Eletric Energy"/>
 
     </Grid>
 </Window>

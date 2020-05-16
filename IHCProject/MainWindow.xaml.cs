@@ -31,5 +31,26 @@ namespace IHCProject
             ts.Show();
             this.Close();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            HumidityStats hs = new HumidityStats();
+            hs.Show();
+            this.Close();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            EEStats hs = new EEStats();
+            hs.Show();
+            this.Close();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Co2Stats cs = new Co2Stats();
+            cs.Show();
+            this.Close();
+        }
     }
 }

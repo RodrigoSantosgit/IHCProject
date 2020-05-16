@@ -72,9 +72,9 @@
         <Button HorizontalAlignment="Left" Height="50" Margin="250,618,0,0" VerticalAlignment="Top" Width="125" Opacity="0" Click="Button_Click"/>
         <Button HorizontalAlignment="Left" Height="50" Margin="125,618,0,-1" VerticalAlignment="Top" Width="125" Opacity="0"/>
         <Button HorizontalAlignment="Left" Height="50" Margin="0,618,0,-1" VerticalAlignment="Top" Width="125" Opacity="0"/>
-        <Button HorizontalAlignment="Left" Height="70" Margin="0,522,0,0" VerticalAlignment="Top" Width="375" Opacity="0"/>
-        <Button HorizontalAlignment="Left" Height="70" Margin="0,418,0,0" VerticalAlignment="Top" Width="375" Opacity="0"/>
-        <Button HorizontalAlignment="Left" Height="70" Margin="0,302,0,0" VerticalAlignment="Top" Width="375" Opacity="0"/>
+        <Button HorizontalAlignment="Left" Height="70" Margin="0,522,0,0" VerticalAlignment="Top" Width="375" Opacity="0" Click="Button_Click_2"/>
+        <Button HorizontalAlignment="Left" Height="70" Margin="0,418,0,0" VerticalAlignment="Top" Width="375" Opacity="0" Click="Button_Click_3"/>
+        <Button HorizontalAlignment="Left" Height="70" Margin="0,302,0,0" VerticalAlignment="Top" Width="375" Opacity="0" Click="Button_Click_1"/>
         <Button HorizontalAlignment="Left" Height="70" Margin="0,185,0,0" VerticalAlignment="Top" Width="375" Opacity="0" Click="Button_Click"/>
     </Grid>
 </Window>

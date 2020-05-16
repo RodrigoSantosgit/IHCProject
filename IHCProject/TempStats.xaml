@@ -63,7 +63,7 @@
 
                 </chart:ChartLegend>
             </chart:SfChart.Legend>
-            <chart:ColumnSeries Palette="None" Label="Temperature" ItemsSource="{Binding Data}" XBindingPath="Month" YBindingPath="Value">
+            <chart:ColumnSeries Palette="None" Label="Temperature ºC" ItemsSource="{Binding Data}" XBindingPath="Month" YBindingPath="Value">
                 <chart:ColumnSeries.AdornmentsInfo>
                     <chart:ChartAdornmentInfo ShowLabel="True"/>
                 </chart:ColumnSeries.AdornmentsInfo>

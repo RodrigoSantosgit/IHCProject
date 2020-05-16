@@ -11,4 +11,24 @@ namespace IHCProject
         public String Month { get; set; }
         public double Value { get; set; }
     }
+
+    public class HumValues
+    {
+        public String Month { get; set; }
+        public double Value { get; set; }
+    }
+
+    public class EEValues
+    {
+        public String Month { get; set; }
+        public double Value { get; set; }
+    }
+
+    public class CO2Values
+    {
+        public String Month { get; set; }
+        public double Value { get; set; }
+    }
+
+
 }

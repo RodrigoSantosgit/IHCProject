@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Utilizador\Source\Repos\IHCProject\IHCProject\obj\Debug\
+C:\Users\Utilizador\source\repos\IHCProject\IHCProject\obj\Debug\
 IHCProject
 none
 false
 DEBUG;TRACE
-C:\Users\Utilizador\Source\Repos\IHCProject\IHCProject\App.xaml
-2-1520814729
+C:\Users\Utilizador\source\repos\IHCProject\IHCProject\App.xaml
+3-967084832
 
-6-389872459
-13-1505183044
-InitialPage.xaml;MainWindow.xaml;
+9-1533776892
+15-148691700
+InitialPage.xaml;MainWindow.xaml;TempStats.xaml;
 
 False
 

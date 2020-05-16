@@ -7,7 +7,7 @@
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:sys1="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
         mc:Ignorable="d"
-        Title="Statistics" Height="667" Width="375" ResizeMode="NoResize" Background="#FFF2F2F7" WindowStartupLocation="CenterScreen">
+        Title="Statistics" Height="667" Width="375" ResizeMode="NoResize" Background="#FFF2F2F7" WindowStartupLocation="CenterScreen" WindowStyle="None">
 
 
     <Grid>
@@ -55,7 +55,7 @@
                 <DropShadowEffect BlurRadius="2" Opacity="0.25" ShadowDepth="2"/>
             </Label.Effect>
         </Label>
-        <Label HorizontalAlignment="Left" Height="33" Margin="263,542,0,0" VerticalAlignment="Top" Width="70" FontFamily="Trebuchet MS" FontSize="20" Content="2.4 kWh">
+        <Label HorizontalAlignment="Left" Height="33" Margin="263,542,0,0" VerticalAlignment="Top" Width="87" FontFamily="Trebuchet MS" FontSize="20" Content="2.4 kWh">
             <Label.Effect>
                 <DropShadowEffect BlurRadius="2" Opacity="0.25" ShadowDepth="2"/>
             </Label.Effect>
@@ -64,9 +64,17 @@
         <Image HorizontalAlignment="Left" Height="50" Margin="298,59,0,0" VerticalAlignment="Top" Width="52" Source="./Resources/btnSettings.png"/>
         <Image HorizontalAlignment="Left" Height="40" Margin="30,318,0,0" VerticalAlignment="Top" Width="40" Source="./Resources/humidity.png"/>
         <Image HorizontalAlignment="Left" Height="40" Margin="30,434,0,0" VerticalAlignment="Top" Width="40" Source="./Resources/Co2.png"/>
-        <Image HorizontalAlignment="Left" Height="40" Margin="30,318,0,0" VerticalAlignment="Top" Width="40" Source="Resources/humidity.png"/>
-        <Image HorizontalAlignment="Left" Height="40" Margin="30,200,0,0" VerticalAlignment="Top" Width="40" Source="Resources/termometro.png"/>
-        <Image HorizontalAlignment="Left" Height="40" Margin="30,539,0,0" VerticalAlignment="Top" Width="40" Source="Resources/eletricEnergy.png"/>
-        <Image HorizontalAlignment="Left" Height="30" Margin="0,0,0,0" VerticalAlignment="Top" Width="375" Source="Resources/topBar.png"/>
+        <Image HorizontalAlignment="Left" Height="40" Margin="30,318,0,0" VerticalAlignment="Top" Width="40" Source="./Resources/humidity.png"/>
+        <Image HorizontalAlignment="Left" Height="40" Margin="30,200,0,0" VerticalAlignment="Top" Width="40" Source="./Resources/termometro.png"/>
+        <Image HorizontalAlignment="Left" Height="40" Margin="30,539,0,0" VerticalAlignment="Top" Width="40" Source="./Resources/eletricEnergy.png"/>
+        <Image HorizontalAlignment="Left" Height="30" Margin="0,0,0,0" VerticalAlignment="Top" Width="375" Source="./Resources/topBar.png"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="1,618,0,-1" VerticalAlignment="Top" Width="374" Source="./Resources/navBar.png" Stretch="Fill"/>
+        <Button HorizontalAlignment="Left" Height="50" Margin="250,618,0,0" VerticalAlignment="Top" Width="125" Opacity="0" Click="Button_Click"/>
+        <Button HorizontalAlignment="Left" Height="50" Margin="125,618,0,-1" VerticalAlignment="Top" Width="125" Opacity="0"/>
+        <Button HorizontalAlignment="Left" Height="50" Margin="0,618,0,-1" VerticalAlignment="Top" Width="125" Opacity="0"/>
+        <Button HorizontalAlignment="Left" Height="70" Margin="0,522,0,0" VerticalAlignment="Top" Width="375" Opacity="0"/>
+        <Button HorizontalAlignment="Left" Height="70" Margin="0,418,0,0" VerticalAlignment="Top" Width="375" Opacity="0"/>
+        <Button HorizontalAlignment="Left" Height="70" Margin="0,302,0,0" VerticalAlignment="Top" Width="375" Opacity="0"/>
+        <Button HorizontalAlignment="Left" Height="70" Margin="0,185,0,0" VerticalAlignment="Top" Width="375" Opacity="0" Click="Button_Click"/>
     </Grid>
 </Window>

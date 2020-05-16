@@ -25,5 +25,11 @@ namespace IHCProject
             InitializeComponent();
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            TempStats ts = new TempStats();
+            ts.Show();
+            this.Close();
+        }
     }
 }

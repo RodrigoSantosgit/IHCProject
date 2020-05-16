@@ -29,3 +29,10 @@ C:\Users\Utilizador\Source\Repos\IHCProject\IHCProject\obj\Debug\IHCProject.exe
 C:\Users\Utilizador\Source\Repos\IHCProject\IHCProject\obj\Debug\IHCProject.pdb
 C:\Users\Utilizador\Source\Repos\IHCProject\IHCProject\obj\Debug\InitialPage.g.cs
 C:\Users\Utilizador\Source\Repos\IHCProject\IHCProject\obj\Debug\InitialPage.baml
+C:\Users\Utilizador\Source\Repos\IHCProject\IHCProject\obj\Debug\TempStats.g.cs
+C:\Users\Utilizador\Source\Repos\IHCProject\IHCProject\obj\Debug\TempStats.baml
+C:\Users\Utilizador\source\repos\IHCProject\IHCProject\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Utilizador\source\repos\IHCProject\IHCProject\bin\Debug\Syncfusion.SfChart.WPF.dll
+C:\Users\Utilizador\source\repos\IHCProject\IHCProject\bin\Debug\Syncfusion.SfChart.WPF.xml
+C:\Users\Utilizador\source\repos\IHCProject\IHCProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Utilizador\source\repos\IHCProject\IHCProject\obj\Debug\IHCProject.csproj.CopyComplete

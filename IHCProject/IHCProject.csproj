@@ -64,6 +64,9 @@
     <Compile Include="Rooms.xaml.cs">
       <DependentUpon>Rooms.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Rooms_living.xaml.cs">
+      <DependentUpon>Rooms_living.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TempStats.xaml.cs">
       <DependentUpon>TempStats.xaml</DependentUpon>
     </Compile>
@@ -89,6 +92,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Rooms.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rooms_living.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -153,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="1 - Rooms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="2 - Living Room.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -25,7 +25,7 @@ namespace IHCProject
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void goToStats(object sender, RoutedEventArgs e)
         {
             StatisticsWindow stats = new StatisticsWindow();
             stats.Show();

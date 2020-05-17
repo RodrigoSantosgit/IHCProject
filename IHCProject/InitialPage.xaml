@@ -7,10 +7,131 @@
       xmlns:sys="clr-namespace:System;assembly=mscorlib"
       xmlns:sys1="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
       mc:Ignorable="d" 
-      Title="InitialPage" Height="667" Width="375" ResizeMode="NoResize" Background="#FFF2F2F7" WindowStartupLocation="CenterScreen">
+      Title="InitialPage" Height="667" Width="375" ResizeMode="NoResize" Background="#FFF2F2F7" WindowStartupLocation="CenterScreen" WindowStyle="None">
 
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Height="42" Margin="102,265,0,0" VerticalAlignment="Top" Width="177" Click="Button_Click"/>
 
+
+
+        <Label HorizontalAlignment="Left" Height="33" Margin="26,133,0,0" VerticalAlignment="Top" Width="127" FontFamily="Arial" FontSize ="24" Content="Scenes" FontWeight="Bold"/>
+        <Label HorizontalAlignment="Left" Height="33" Margin="26,380,0,0" VerticalAlignment="Top" Width="139" FontFamily="Arial" FontSize="24" Content="Favourites" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="30" Margin="0,0,0,0" VerticalAlignment="Top" Width="375" Source="./Resources/topBar.png"/>
+        <Image HorizontalAlignment="Left" Height="37" Margin="26,68,0,0" VerticalAlignment="Top" Width="39" Source="./Resources/usersButton.png"/>
+        <Image HorizontalAlignment="Left" Height="46" Margin="251,59,0,0" VerticalAlignment="Top" Width="47" Source="./Resources/testBotao.png"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="298,59,0,0" VerticalAlignment="Top" Width="52" Source="./Resources/btnSettings.png"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="1,617,0,0" VerticalAlignment="Top" Width="374" Source="./Resources/homeNavBar.png" Stretch="Fill"/>
+        <Button HorizontalAlignment="Left" Height="50" Margin="250,617,0,0" VerticalAlignment="Top" Width="125" Opacity="0" Click="goToStats"/>
+        <Button HorizontalAlignment="Left" Height="50" Margin="125,617,0,0" VerticalAlignment="Top" Width="125" Opacity="0"/>
+        <Button HorizontalAlignment="Left" Height="50" Margin="0,617,0,0" VerticalAlignment="Top" Width="125" Opacity="0"/>
+
+        <Button  HorizontalAlignment="Left" Margin="26,171,0,0" VerticalAlignment="Top" Width="157" Height="82" Opacity="1" Background="#FFDADADA" BorderBrush="{x:Null}">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+            <StackPanel Height="72" Width="147">
+                <Label Content="Good Night" Width="90" Height="37" Margin="54,18,03,0" FontFamily="Arial" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                <Image Height="38" Width="38" Margin="-90,-37,0,0" Source="Resources/moon.png"/>
+                <Image Height="38" Width="38" Margin="0,-37,0,0"/>
+            </StackPanel>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="193,171,0,0" VerticalAlignment="Top" Width="157" Height="82" Opacity="1" Background="#FFDADADA" BorderBrush="{x:Null}">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+            <StackPanel Height="72" Width="147">
+                <Label Content="Good Morning" Width="90" Height="37" Margin="54,18,03,0" FontFamily="Arial" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                <Image Height="38" Width="38" Margin="-90,-37,0,0" Source="Resources/sun.png"/>
+                <Image Height="38" Width="38" Margin="0,-37,0,0"/>
+            </StackPanel>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="26,263,0,0" VerticalAlignment="Top" Width="157" Height="82" Opacity="1" Background="#FFDADADA" BorderBrush="{x:Null}">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+            <StackPanel Height="72" Width="147">
+                <Label Content="" Width="90" Height="37" Margin="54,18,03,0" FontFamily="Arial" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                <Image Height="38" Width="38" Margin="-90,-37,0,0" />
+                <Image Height="38" Width="38" Margin="0,-37,0,0" Source="Resources/add.png"/>
+            </StackPanel>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="193,263,0,0" VerticalAlignment="Top" Width="157" Height="82" Opacity="1" Background="#FFDADADA" BorderBrush="{x:Null}">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+            <StackPanel Height="72" Width="147">
+                <Label Content="" Width="90" Height="37" Margin="54,18,03,0" FontFamily="Arial" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                <Image Height="38" Width="38" Margin="-90,-37,0,0"/>
+                <Image Height="38" Width="38" Margin="0,-37,0,0"/>
+            </StackPanel>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="26,418,0,0" VerticalAlignment="Top" Width="157" Height="82" Opacity="1" Background="#FFDADADA" BorderBrush="{x:Null}">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+            <StackPanel Height="72" Width="147">
+                <Label Width="70" Height="40" Margin="74,0,03,0" FontFamily="Arial" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                    <TextBlock Width="59" FontWeight="ExtraBold" TextWrapping="Wrap" HorizontalAlignment="Right">Kitchen<LineBreak/>Lights</TextBlock>
+                </Label>
+                <Label Content="Off" Width="70" Height="25" Margin="74,5,03,0" FontFamily="Arial" BorderBrush="Black" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" />
+                <Image Height="38" Width="38" Margin="-90,-67,0,0" Source="Resources/bulb.png">
+                </Image>
+                <Image Height="38" Width="38" Margin="0,-67,0,0"/>
+            </StackPanel>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="193,418,0,0" VerticalAlignment="Top" Width="157" Height="82" Opacity="1" Background="#FFDADADA" BorderBrush="{x:Null}">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+            <StackPanel Height="72" Width="147">
+                <Label Width="70" Height="40" Margin="74,0,03,0" FontFamily="Arial" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                    <TextBlock Width="59" FontWeight="ExtraBold" TextWrapping="Wrap" HorizontalAlignment="Right"><LineBreak/></TextBlock>
+                </Label>
+                <Label Content="" Width="70" Height="25" Margin="74,5,03,0" FontFamily="Arial" BorderBrush="Black" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" />
+                <Image Height="38" Width="38" Margin="-90,-67,0,0" />
+                <Image Height="38" Width="38" Margin="0,-67,0,0"/>
+            </StackPanel>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="26,510,0,0" VerticalAlignment="Top" Width="157" Height="82" Opacity="1" Background="#FFDADADA" BorderBrush="{x:Null}">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+            <StackPanel Height="72" Width="147">
+                <Label Width="70" Height="40" Margin="74,0,03,0" FontFamily="Arial" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                    <TextBlock Width="59" FontWeight="ExtraBold" TextWrapping="Wrap" HorizontalAlignment="Right"><LineBreak/></TextBlock>
+                </Label>
+                <Label Content="" Width="70" Height="25" Margin="74,5,03,0" FontFamily="Arial" BorderBrush="Black" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" />
+                <Image Height="38" Width="38" Margin="-90,-67,0,0" />
+                <Image Height="38" Width="38" Margin="0,-67,0,0"/>
+            </StackPanel>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="193,510,0,0" VerticalAlignment="Top" Width="157" Height="82" Opacity="1" Background="#FFDADADA" BorderBrush="{x:Null}">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+            <StackPanel Height="72" Width="147">
+                <Label Width="70" Height="40" Margin="74,0,03,0" FontFamily="Arial" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                    <TextBlock Width="59" FontWeight="ExtraBold" TextWrapping="Wrap" HorizontalAlignment="Right"><LineBreak/></TextBlock>
+                </Label>
+                <Label Content="" Width="70" Height="25" Margin="74,5,03,0" FontFamily="Arial" BorderBrush="Black" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" />
+                <Image Height="38" Width="38" Margin="-90,-67,0,0" />
+                <Image Height="38" Width="38" Margin="0,-67,0,0"/>
+            </StackPanel>
+        </Button>
     </Grid>
 </Window>

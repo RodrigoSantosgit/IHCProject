@@ -36,3 +36,13 @@ C:\Users\Utilizador\source\repos\IHCProject\IHCProject\bin\Debug\Syncfusion.SfCh
 C:\Users\Utilizador\source\repos\IHCProject\IHCProject\bin\Debug\Syncfusion.SfChart.WPF.xml
 C:\Users\Utilizador\source\repos\IHCProject\IHCProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Utilizador\source\repos\IHCProject\IHCProject\obj\Debug\IHCProject.csproj.CopyComplete
+C:\Users\danie\Source\Repos\RodrigoSantosgit\IHCProject\IHCProject\obj\Debug\IHCProject.csprojAssemblyReference.cache
+C:\Users\danie\Source\Repos\RodrigoSantosgit\IHCProject\IHCProject\obj\Debug\InitialPage.g.cs
+C:\Users\danie\Source\Repos\RodrigoSantosgit\IHCProject\IHCProject\obj\Debug\MainWindow.g.cs
+C:\Users\danie\Source\Repos\RodrigoSantosgit\IHCProject\IHCProject\obj\Debug\TempStats.g.cs
+C:\Users\danie\Source\Repos\RodrigoSantosgit\IHCProject\IHCProject\obj\Debug\App.g.cs
+C:\Users\danie\Source\Repos\RodrigoSantosgit\IHCProject\IHCProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\danie\Source\Repos\RodrigoSantosgit\IHCProject\IHCProject\obj\Debug\IHCProject_MarkupCompile.cache
+C:\Users\danie\Source\Repos\RodrigoSantosgit\IHCProject\IHCProject\obj\Debug\IHCProject_MarkupCompile.lref
+C:\Users\danie\Source\Repos\RodrigoSantosgit\IHCProject\IHCProject\obj\Debug\IHCProject.exe
+C:\Users\danie\Source\Repos\RodrigoSantosgit\IHCProject\IHCProject\obj\Debug\IHCProject.pdb

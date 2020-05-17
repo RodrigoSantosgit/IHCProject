@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/backarrow.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("1%20-%20rooms.png")]
 
 
